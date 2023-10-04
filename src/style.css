@@ -1,0 +1,58 @@
+body {
+    background-color: #FFF;
+}
+
+.topbar {
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px dashed #4677ff;
+    margin: 0 auto;
+}
+
+.div-a img {
+    height: 30px;
+    width: 30px;
+}
+
+.hd {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.myfav {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.div-a {
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.div-a:hover {
+    border-radius: 24px;
+    transition: all 1s ease;
+}
+
+.div-a:hover::before {
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+
+footer {
+    height: 70px;
+    border: 3px solid #ff9595;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer div {
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    height: 80%;
+    display: inline-block;
+    border: 3px solid #ff8383;
+    border-radius: 20px;
+}
